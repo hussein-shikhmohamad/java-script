@@ -1,0 +1,39 @@
+<html>
+<head>
+	<title>Color changer</title>
+	<script language="JavaScript">
+		function changeBGC(color){
+			switch(color){
+				case "blue":
+					document.bgColor = "#CCF";
+					break;
+				case "pink":
+					document.bgColor = "#FCC";
+					break;
+				case "white":
+					document.bgColor = "#FFF";
+					break;
+				case "yellow":
+					document.bgColor = "#FF9";
+					break;
+				case "green":
+					document.bgColor = "#0F9";
+					break;
+				defult:
+					document.bgColor = "#FCC";
+					break;
+			}
+		}
+	</script>
+</head>
+<body>
+	<p align="center">
+	background color
+		<input type="button" value="  Blue  " onClick="changeBGC('blue')" style="background-color:#CCF" border="2">
+		<input type="button" value="  Pink  " onClick="changeBGC('pink')" style="background-color:#FCC" border="2">
+		<input type="button" value="  White " onClick="changeBGC('white')" style="background-color:#FFF" border="2">
+		<input type="button" value=" Yellow " onClick="changeBGC('yellow')" style="background-color:#FF9" border="2">
+		<input type="button" value="  Green " onClick="changeBGC('green')" style="background-color:#0F9" border="2">
+	</p>
+</body>
+</html>
