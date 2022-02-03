@@ -35,5 +35,12 @@
 		<input type="button" value=" Yellow " onClick="changeBGC('yellow')" style="background-color:#FF9" border="2">
 		<input type="button" value="  Green " onClick="changeBGC('green')" style="background-color:#0F9" border="2">
 	</p>
+<input id="c" type="color" onchange="f()" />
+<p id="p">Hello</p>
+<script>
+function f() {
+window.p.style.color=window.c.value ;
+}
+</script>
 </body>
 </html>
