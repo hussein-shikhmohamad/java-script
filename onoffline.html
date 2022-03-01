@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<body>
+	<button onclick="myFunction()">Try it</button>
+	<p id="demo"></p>
+<script>
+	function myFunction() {
+	var x = navigator.onLine;
+	if(x==true){document.getElementById("demo").innerHTML = " <h1 style='color:#0f0; font-size:64px;' >.</h1>";}
+	else if(x==false){document.getElementById("demo").innerHTML = " <h1 style='color:#f00;font-size:64px;' >.</h1>";}
+	}
+</script>
+
+</body>
+</html>
